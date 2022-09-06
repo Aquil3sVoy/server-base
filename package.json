@@ -1,7 +1,23 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
+  "description": "Starter template for a Node.js + TypeScript + Express + Jest + MSW server",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aquil3sVoy/server-base"
+  },
+  "author": "Oscar Corona <oabc4004@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aquil3sVoy/server-base/issues"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "express",
+    "jest",
+    "msw"
+  ],
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -10,9 +26,6 @@
     "test": "jest",
     "test:coverage": "npm run test -- --coverage"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.0",
